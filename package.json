@@ -1,0 +1,15 @@
+{
+  "name": "broccoli-preprocess",
+  "version": "1.0.0",
+  "description": "Preprocess wrapper for broccoli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quinn C. Hoyer <quinn@themightyquinn.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "broccoli-writer": "^0.1.1",
+    "preprocess": "^2.1.0"
+  }
+}
