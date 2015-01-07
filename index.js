@@ -20,7 +20,7 @@ PreprocessFilter.prototype.write = function (readTree, destDir) {
 
   return readTree(this.inputTree).then(function (result) {
     var src = path.join(result, _this.options.src)
-      , dest = path.join(destDir, _this.options.dest)
+      , dest = path.join(destDir, _this.options.dest);
 
     pp.preprocessFileSync(src, dest, _this.options.options.context);
   });
